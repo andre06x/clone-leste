@@ -1,3 +1,3 @@
 # CLONE HOME PAGE LESTE TELECOM
 
-html e css
+Clone feito usando apenas html e css.
