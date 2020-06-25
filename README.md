@@ -1,3 +1,3 @@
 # CLONE HOME PAGE LESTE TELECOM
 
-Clone feito usando html e css.
+Clone feito em 02/2020, usando html e css.
