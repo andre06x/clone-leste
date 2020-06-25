@@ -1,0 +1,422 @@
+*{
+    box-sizing: border-box;  
+}
+
+body{
+    margin: 0px;
+    background-color: #fff;
+}
+
+.cabecalho{
+    margin-top: 0px;
+    height: 70px;
+    background-color:#0007 ;
+    display: inline-block;
+    width: 100%;
+    margin-left: 0px;
+    position: fixed;
+    z-index: 10; 
+}
+
+.menu{
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+    margin-left: 0px;
+    width: 100%;
+    
+}
+
+.menu ul{
+    padding: 0px;
+    margin-left:-5px ;
+    display: inline-block;
+    width: 100%;
+}
+.menu li{
+    display: inline-block;
+    padding: 3px 0px;
+    margin: 0px -3px 0px -3px;
+   
+}
+
+.menu a{
+    width: auto;
+    margin-right: 0px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 28px 50.52px;
+    font-size:14px ;
+    font-family: 'open sans',sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu a:hover{
+    background-color: white;
+    transition:color 0.8s ;
+    transition:ease 1s;
+    color: #00AD4F;
+}
+
+.logo{
+    position: absolute;
+    top: 70px;
+    height: 137px;
+    width: 100%;
+    background-color: white;
+}
+
+.logo img{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.boxLogo{
+    position:absolute;
+    /* background-color: black; */
+    height: 524px;
+    top: 207px;
+    width: 100%
+    
+}
+
+.boxLogo .a{
+    width: 100%;
+    height: 100%;
+}
+
+.boxLogo .a img{
+    width: 100%;
+}
+
+
+.planoTOP{
+    position:absolute;
+    margin-top: 750px;
+    height: 2400px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.planoTOP h1{
+    position: relative;
+    text-align: center;
+}
+h1 .preto{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+h1 .verde{
+    font-size: 75px;
+    font-weight: bold;
+    color:#00AD4F;
+}
+
+.planoTOP .navegue{
+    position: relative;
+    text-align: center;
+    top: -2px;
+    font-family: 'Roboto', ;
+    font-size: 18px;
+}
+
+
+.informe{
+    height:4em;
+    width: 100%;
+    /* background-color:black ; */
+    position: absolute;
+    top: 2790px;
+}
+
+.informe .inf{
+    color: black;
+    font-size: 15px;
+    margin-left: 250px;
+    font-family: 'Roboto';
+}
+
+.informe .negrito{
+    color: black;
+    font-size: 15px;
+    margin-left: 420px;
+    font-weight: bold;
+    font-family: 'Roboto';    
+}
+
+.informe .continua{
+    color: black;
+    font-size: 15px;
+    margin-left: 4px;
+    font-family: 'Roboto';
+}
+
+.letrasMiudas{
+    position: absolute;
+    top: 2890px;
+    left: 160px;
+    width: 1000px;
+    height: 10em;
+    /* background-color: wheat; */
+}
+
+.letrasMiudas span{
+    font-size: 15px;
+    color: #242323;
+    font-family: 'Roboto', ;
+}
+
+.why{
+    position: absolute;
+    top: 3030px;
+    height: 73em;
+    width: 100%;
+    background-color: #00AD4F;
+}
+
+.why .escolher{
+    /* background-color: red; */
+    width: 70%;
+    position: relative;
+    top: 70px;
+    left: 160px;
+    height: 10em;
+}
+
+.escolher span{
+
+
+    font-family: 'Anton', sans-serif;
+
+    font-size: 3.5em;
+    color: #fff;
+}
+
+.why .video{
+    position: relative;
+    width: 40em;
+    height: 22em;
+    /* background-color: red; */
+    top: 100px;
+    left: 320px;
+    border: solid 4px #fff;
+}
+
+.video iframe{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.boxMotivos{
+    position: relative;
+    top: 190px;
+    width: 58em;
+    /* background-color: red; */
+    height: 38em;
+    left: 195px;
+}
+
+.motivos{
+    /* background-color: royalblue; */
+    width: 30em;
+    height: 10em;
+
+}
+
+.motivos img{
+    position: relative;
+    top: 55px;
+    left: -15px;
+}
+
+.motivos span{
+    margin-top: 40px;
+    position: absolute;
+    font-family:'Roboto';
+    font-weight: bold;
+    left: 49px;
+}
+
+.motivos p{
+    position: relative;
+    left: 50px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.area{
+    position: absolute;
+    /* background-color: #ddd; */
+    width: 100%;
+    height: 72em;
+    top: 4170px;
+}
+
+.cities{
+    position: relative;
+    top: 60px;
+    left: 150px;
+    width: 700px;
+    /* background-color: black; */
+    height: 17em;
+}
+
+.cities .a34{
+    font-size:70px;
+    font-family: 'Roboto', 
+}
+
+
+.cities span{
+    font-size: 17.6px;
+}
+
+.area .mapa{
+    position: relative;
+    top: 50px;
+    left: 160px;
+    height: 30em;
+    width: 60em;
+    /* background-color: brown; */
+}
+
+.area .aLeste{
+    top: 960px;
+    left: 160px;
+    position: absolute;
+    /* background-color: brown; */
+    width: 60em;
+    height: 10em;
+}
+
+.area .aLeste{
+    font-size:18px ;
+    font-family: 'Roboto', ;
+    color: #5D5D5D;
+    /* color: black; */
+
+}
+
+.findW{
+    width: 100%;
+    height: 68em;
+    position: relative;
+    background-color: #00AD4F;
+    top: 3600px;
+}
+
+.aio span{
+    font-size: 65px;
+    font-family: 'Roboto';
+}
+
+.local{
+    font-size:22px ;
+    margin-left: 150px;
+    padding: 50px 0px 0px 0px;
+}
+
+.atendimento{
+    font-size:22px ;
+    margin-left: 150px;
+    padding: 3px 0px 0px 0px;
+}
+
+.call{
+    height: 40em;
+    width: 100%;
+    /* background-color: #5D5D5D; */
+    position: relative;
+    margin-top: 3600px;
+}
+
+.call .talk{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 300px;
+    height: 10em;
+    width: 900px;
+    background-color: #fff;
+}
+
+.talk .um{
+    position: absolute;
+    margin-top: 0px;
+    font-size: 69px;
+    margin-left: -16px;
+    font-family: 'Roboto';
+}
+
+.solicitar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top:240px;
+    margin-left: 430px;
+    /* background-color: aquamarine; */
+    width: 30em;
+    height: 23em;
+}
+
+.solicitar input{
+    width: 100%;
+    height: 28px;
+    background-color: #d7d7db;
+    margin-top: 10px;
+    border: none;
+}
+
+.solicitar div{
+    width: 150px;
+    margin-top: 10px;
+    height: 60px;
+    margin-left: 170px;
+    background-color: black;
+}
+
+.solicitar div button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    background-color: #737373;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    height: 35em;
+    background-color: #2E2E2E;
+}
+
+.footer .left{
+    position: absolute;
+    margin-top:40px ;
+    margin-left: 200px;
+}
+
+.footer .right{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 610px;
+}
+
+.right a{
+    position: relative;
+    text-decoration: none;
+    margin-bottom:40px ;
+    font-size: 16px;
+    font-family:  Helvetica, sans-serif;
+    
+}
+
+.footer .right a{
+    color: #737373;
+    font-weight: bold;
+}
